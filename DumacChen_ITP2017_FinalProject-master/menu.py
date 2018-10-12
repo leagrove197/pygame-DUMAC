@@ -59,7 +59,7 @@ def pause_menu(Button,run_game):    #define the pause menu and inherit the Butto
         rect_return = draw.rect(screen, (0, 0, 0), (250, 300, 300, 150))    #make rect_return variable which is  a draw.rect black colored and set the position
         screen.blit(bg_image, (0, 0))   #call the background image 0,0
 
-        screen.blit(start_button.button, (250, 500))    #call the start button image to the screen and set the size 250,200
+        screen.blit(start_button.button, (250, 200))    #call the start button image to the screen and set the size 250,200
         screen.blit(return_button.button, (250, 300))   #call the return button image to the screen and set the size 250,300
 
         ev = event.wait()               #pause the program for an amount of time and consider it as ev variable
